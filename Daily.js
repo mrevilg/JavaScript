@@ -1,2 +1,5 @@
-Test for JS Daily File
+//Test for JS Daily File
 
+
+console.log('Hello World');
+// Prints to screen: Hello World

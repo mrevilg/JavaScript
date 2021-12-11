@@ -20,3 +20,13 @@ Undefined: This data type is denoted by the keyword undefined (without quotes). 
 Symbol: A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.
 
 Object: Collections of related data.
+
+Arithmetic Operators
+
+Add: +
+Subtract: -
+Multiply: *
+Divide: /
+Remainder: %
+
+String Concatenation

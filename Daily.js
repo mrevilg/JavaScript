@@ -21,3 +21,4 @@ console.log(4 * 2); // Prints 8
 console.log(9 / 3); // Prints 3
 console.log(11 % 3); // Prints 2
 console.log(12 % 3); // Prints 0
+console.log(42 + 3.5) // etc

@@ -26,3 +26,5 @@ console.log(42 + 3.5) // etc
 console.log('hi' + 'ya'); // Prints 'hiya'
 console.log('wo' + 'ah'); // Prints 'woah'
 console.log('Hello ' + 'World'); // Prints 'Hello World'
+
+console.log('Teaching the world how to code'.length); // Prints string length property

@@ -29,6 +29,6 @@ Multiply: *
 Divide: /
 Remainder: %
 
-String Concatenation
+String Concatenation: Operators can also concatenate strings
 
-(TEST)
+Properties: All strings have 'properties' like .length

@@ -28,3 +28,5 @@ console.log('wo' + 'ah'); // Prints 'woah'
 console.log('Hello ' + 'World'); // Prints 'Hello World'
 
 console.log('Teaching the world how to code'.length); // Prints string length property
+
+console.log('hello'.lastIndexOf()); // Prints -1

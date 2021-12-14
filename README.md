@@ -32,3 +32,10 @@ Remainder: %
 String Concatenation: Operators can also concatenate strings
 
 Properties: All strings have 'properties' like .length
+
+Methods: A '.[something]' such as: 
+    'example string'.methodName()
+    console.log('hello'.toUpperCase()); // Prints 'HELLO'
+    console.log('Hey'.startsWith('H')); // Prints true (Boolean)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String

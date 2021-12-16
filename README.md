@@ -48,3 +48,10 @@ Built-In Objects: Standard objects: console, Math etc, also contain Methods:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
+Variable Declaration / Keywords
+
+var favoriteFood = 'pizza'
+var numOfSlices = 8
+console.log(favoriteFood);
+console.log(numOfSlices);
+

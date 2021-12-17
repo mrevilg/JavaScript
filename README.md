@@ -55,3 +55,7 @@ var numOfSlices = 8
 console.log(favoriteFood);
 console.log(numOfSlices);
 
+'let' signals a variable can be reassigned
+
+let/var can be assigned without a value
+

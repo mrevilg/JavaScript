@@ -59,3 +59,4 @@ console.log(numOfSlices);
 
 let/var can be assigned without a value
 
+'const' is a variable that is immutable

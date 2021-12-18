@@ -44,3 +44,6 @@ console.log(numOfSlices);
 
 let changeMe = true // let can be reassigned
 console.log(changeMe = false)
+
+const entree = 'Enchiladas' // immutable variable
+console.log(entree);

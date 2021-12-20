@@ -74,3 +74,5 @@ Mathmatical Assignment Operators
     let z = 8;
     z /= 2; // Can be written as z = z / 2
     console.log(z); // Output: 4
+
+Increment and Decrement Operator (++ or --) Plus or Minus 1

@@ -59,3 +59,14 @@ console.log(y); // Output: 100
 let z = 8;
 z /= 2; // Can be written as z = z / 2
 console.log(z); // Output: 4
+
+// Increment and Decrement Operators
+
+let gainedDollar = 3;
+let lostDollar = 50;
+
+console.log(gainedDollar++); //Prints 3
+lostDollar--;
+
+console.log(gainedDollar); // Print 4
+console.log(lostDollar); // Prints 49

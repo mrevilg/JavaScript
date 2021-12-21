@@ -70,3 +70,7 @@ lostDollar--;
 
 console.log(gainedDollar); // Print 4
 console.log(lostDollar); // Prints 49
+
+// Concatenation with String Variables
+var favoriteAnimal = 'Cat';
+console.log('My favorite animal: ' + favoriteAnimal);

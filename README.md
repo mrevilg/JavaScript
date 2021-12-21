@@ -76,3 +76,5 @@ Mathmatical Assignment Operators
     console.log(z); // Output: 4
 
 Increment and Decrement Operator (++ or --) Plus or Minus 1
+
+String Concatenation with Variables

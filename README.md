@@ -76,5 +76,12 @@ Mathmatical Assignment Operators
     console.log(z); // Output: 4
 
 Increment and Decrement Operator (++ or --) Plus or Minus 1
+    var favoriteAnimal = 'Cat';
+    console.log('My favorite animal: ' + favoriteAnimal);
 
-String Concatenation with Variables
+String Concatenation with Variables.
+In the ES6 version of JavaScript, we can insert, or interpolate, variables into strings using template literals. 
+
+    const myPet = 'armadillo';
+    console.log(`I own a pet ${myPet}.`);
+    // Output: I own a pet armadillo.

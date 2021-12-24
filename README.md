@@ -98,3 +98,12 @@ The typeof operator checks the value to its right and returns, or passes back, a
     
     const unknown3 = true; 
     console.log(typeof unknown3); // Output: boolean
+
+Conditional Statements
+
+if requires curly brackt code blocks
+
+    if (true) {
+    console.log('This message will print!'); 
+    }
+    // Prints: This message will print!

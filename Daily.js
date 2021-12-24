@@ -96,3 +96,9 @@ console.log(typeof newVariable);
 
 newVariable = 1;
 console.log(typeof newVariable);
+
+// if
+
+if (true) {
+console.log('This message will print!'); 
+} // Prints: This message will print!

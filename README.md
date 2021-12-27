@@ -116,3 +116,8 @@ if requires curly brackt code blocks
     } else {
     console.log('Time to wait for a sale.'); // This will print
     }
+
+Comparison Operators
+Same as standard aside from: 
+Is equal to: ===
+Is not equal to: !==

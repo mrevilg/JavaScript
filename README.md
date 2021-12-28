@@ -121,3 +121,8 @@ Comparison Operators
 Same as standard aside from: 
 Is equal to: ===
 Is not equal to: !==
+
+Logical Operators
+the and operator (&&)
+the or operator (||)
+the not operator, otherwise known as the bang operator (!)

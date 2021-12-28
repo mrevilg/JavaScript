@@ -120,3 +120,14 @@ if (hungerLevel > 7) {
 } else {
   console.log('We can eat later!')
 }
+
+// Logical Operators
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === 'sleepy' && tirednessLevel >8) {
+  console.log('time to sleep')
+} else {
+  console.log('not bed time yet')
+}

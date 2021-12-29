@@ -126,3 +126,23 @@ Logical Operators
 the and operator (&&)
 the or operator (||)
 the not operator, otherwise known as the bang operator (!)
+
+Truthy and Falsy: non-boolean defaults
+'present or non-present'
+
+Default falsy values:
+0
+Empty strings '' or ""
+null
+undefined
+NaN (not a number)
+
+    let numberOfApples = 0;
+    
+    if (numberOfApples){
+    console.log('Let us eat apples!');
+    } else {
+    console.log('No apples left!');
+    }
+    
+    // Prints 'No apples left!'

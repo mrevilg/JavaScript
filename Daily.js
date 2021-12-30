@@ -150,3 +150,13 @@ if (favoritePhrase) {
 } else {
   console.log('This string is definitely empty.');
 }
+
+// Short Circuit Evaluation using || as a thruthly
+
+let tool = '';
+let writingUtensil = tool || 'pen'
+console.log(`The ${writingUtensil} is mightier than the sword.`);
+
+tool = 'marker';
+writingUtensil = tool || 'pen'
+console.log(`The ${writingUtensil} is mightier than the sword.`);

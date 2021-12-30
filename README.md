@@ -146,3 +146,15 @@ NaN (not a number)
     }
     
     // Prints 'No apples left!'
+
+Truthly values: ||
+
+Shor Circuit Evaluation:
+
+    let tool = '';
+    let writingUtensil = tool || 'pen'
+    console.log(`The ${writingUtensil} is mightier than the sword.`);
+
+    tool = 'marker';
+    writingUtensil = tool || 'pen'
+    console.log(`The ${writingUtensil} is mightier than the sword.`);

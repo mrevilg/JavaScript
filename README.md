@@ -133,6 +133,12 @@ let season = 'summer';
     console.log('Invalid season.');
     }
 
+Switch statement (long else if scenario)
+
+switch () is if
+case and break are else if
+default and break are else
+
 Comparison Operators
 Same as standard aside from: 
 Is equal to: ===

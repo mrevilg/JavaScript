@@ -8,15 +8,12 @@ let userName = '';
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!')
 
 // Create a variable named userQuestion. The value of the variable should be a string that is the question
-
 const userQuestion = 'What is your question for the great magic ball?!'
 
 // Write a console.log() for the userQuestion, stating what was asked. 
-
 console.log(`${userName} asked: ${userQuestion}`)
 
 // We need to generate a random number between 0 and 7.
-
 var randomNumber = Math.floor(Math.random() * 8);
 
 /*

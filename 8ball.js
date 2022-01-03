@@ -15,6 +15,10 @@ const userQuestion = 'What is your question for the great magic ball?!'
 
 console.log(`${userName} asked: ${userQuestion}`)
 
+// We need to generate a random number between 0 and 7.
+
+var randomNumber = Math.floor(Math.random() * 8);
+
 /*
 Comment Block
 */

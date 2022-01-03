@@ -11,6 +11,9 @@ userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!')
 
 const userQuestion = 'What is your question for the great magic ball?!'
 
+// Write a console.log() for the userQuestion, stating what was asked. 
+
+console.log(`${userName} asked: ${userQuestion}`)
 
 /*
 Comment Block

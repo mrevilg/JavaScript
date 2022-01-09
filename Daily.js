@@ -145,7 +145,7 @@ switch(athleteFinalPosition){
     break;
 }
 
-
+// see 8ball.js 
 
 // Compartive Operators
 
@@ -207,3 +207,19 @@ isCorrect ? console.log('Correct!') : console.log('Incorrect!');
 
 let favoritePhrase = 'Love That!';
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+
+// Function Declaration
+
+greetWorld(); // Output: Hello, World!
+    
+function greetWorld() { 
+  console.log('Hello, World!');
+}
+
+function getReminder() { 
+  console.log('Water the plants.');
+}
+
+function greetInSpanish(){
+  console.log('Buenas Tardes');
+}

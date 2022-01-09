@@ -206,3 +206,22 @@ If the condition evaluates to false, the second expression executes.
 
     let favoritePhrase = 'Love That!';
     favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+
+Function Declarations
+
+In JavaScript, there are many ways to create a function. One way to create a function is by using a function declaration.
+
+A function declaration consists of:
+- The function keyword. (function declared)
+- The name of the function, or its identifier, followed by parentheses. (name of the function)
+- A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly   brackets, { }.
+
+    greetWorld(); // Output: Hello, World!
+    
+    function greetWorld() {
+    console.log('Hello, World!');
+    }
+
+    function getReminder() {
+    console.log('Water the plants.');
+    }

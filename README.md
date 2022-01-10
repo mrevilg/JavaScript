@@ -225,3 +225,5 @@ A function declaration consists of:
     function getReminder() {
     console.log('Water the plants.');
     }
+
+To call a function, simply call the identifier: greetWorld();

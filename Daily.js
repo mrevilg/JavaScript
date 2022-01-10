@@ -223,3 +223,7 @@ function getReminder() {
 function greetInSpanish(){
   console.log('Buenas Tardes');
 }
+
+greetWorld();
+getReminder();
+greetInSpanish();

@@ -227,3 +227,16 @@ A function declaration consists of:
     }
 
 To call a function, simply call the identifier: greetWorld();
+
+Parameters are placeholders for arguments
+
+    function calculateArea(width, height/*para*/) {
+    console.log(width * height); //para in a function, are variables
+    }
+
+    calculateArea(10, 6/*arg*/) //arguments when called, are variables
+
+    const rectWidth = 10;
+    const rectHeight = 6;
+
+    calculateArea(rectWidth, rectHeight);

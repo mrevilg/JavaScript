@@ -227,3 +227,16 @@ function greetInSpanish(){
 greetWorld();
 getReminder();
 greetInSpanish();
+
+// Parameters and Arguments
+
+function calculateArea(width, height/*para*/) {
+  console.log(width * height); //para in a function, are variables
+}
+
+calculateArea(10, 6/*arg*/) //arguments when called, are variables
+
+const rectWidth = 10;
+const rectHeight = 6;
+
+calculateArea(rectWidth, rectHeight);

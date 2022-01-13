@@ -250,3 +250,15 @@ Default Parameters
     } // Default parameters
 
     makeShoppingList();
+
+Function Returns
+
+Where to capture return data from a function to avoid 'undefined' results. That return needs to be assigned. 
+
+    function monitorCount(rows, columns){
+    return (rows * columns);
+    }
+
+    const numOfMonitors = (monitorCount(5, 4));
+
+    console.log(numOfMonitors);

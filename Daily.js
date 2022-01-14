@@ -264,3 +264,6 @@ function monitorCount(rows, columns){
 const numOfMonitors = (monitorCount(5, 4));
 
 console.log(numOfMonitors);
+
+// Helper Functions - Functions within another function (Python Decorators)
+

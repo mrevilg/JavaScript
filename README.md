@@ -272,3 +272,15 @@ We can also use the return value of a function inside another function. These fu
     const totalCost = costOfMonitors(5, 4);
 
     console.log(totalCost);
+
+We can use Function Expessions (think function within a var).
+
+    const plantNeedsWater = function (day){
+    if (day === 'Wednesday'){
+        return true;
+    } else {
+        return false;
+    }
+    }
+
+    console.log(plantNeedsWater('Tuesday'));

@@ -267,3 +267,26 @@ console.log(numOfMonitors);
 
 // Helper Functions - Functions within another function (Python Decorators)
 
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+function costOfMonitors (rows, columns){
+  return monitorCount(rows, columns) * 200;
+}
+
+const totalCost = costOfMonitors(5, 4);
+
+console.log(totalCost);
+
+// Function Expressions (function within a variable)
+
+const plantNeedsWater = function (day){
+  if (day === 'Wednesday'){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(plantNeedsWater('Tuesday'));

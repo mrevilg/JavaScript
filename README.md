@@ -296,3 +296,29 @@ Arrow functions remove the need to type out the keyword function every time you 
         return false;
     }
     };
+
+Concise Body Arrow Functions
+
+Refactoring syntax of fat arrow functions.
+// Zero Parameters
+const functionName = () => {};
+
+// One Parameter
+const functionName = paramOne => {};
+
+// Two or more parameters
+const functionName = (paramOne, paramTwo) => {};
+
+A function body composed of a single-line block does not need curly braces. Without the curly braces, whatever that line evaluates will be automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed. This is referred to as implicit return.
+
+    const squareNum = (num) => {
+    return num * num;
+    };
+
+Becomes:
+
+    const squareNum = num => num * num;
+
+The parentheses around num have been removed, since it has a single parameter.
+The curly braces { } have been removed since the function consists of a single-line block.
+The return keyword has been removed since the function consists of a single-line block.

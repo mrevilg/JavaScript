@@ -300,3 +300,16 @@ const plantNeedsWater = (day) => {
     return false;
   }
 };
+
+// Concise Body Arrow Functions
+
+// Zero Parameters
+const functionName = () => {};
+
+// One Parameter
+const functionName = paramOne => {};
+
+// Two or more parameters
+const functionName = (paramOne, paramTwo) => {};
+
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;

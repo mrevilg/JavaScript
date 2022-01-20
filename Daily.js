@@ -315,3 +315,11 @@ const functionName = (paramOne, paramTwo) => {};
 const plantNeedsWater = day => day === 'Wednesday' ? true : false;
 
 // Block and Scope
+
+let satellite = 'The Moon';
+let galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+function callMyNightSky () {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}

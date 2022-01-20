@@ -313,3 +313,5 @@ const functionName = paramOne => {};
 const functionName = (paramOne, paramTwo) => {};
 
 const plantNeedsWater = day => day === 'Wednesday' ? true : false;
+
+// Block and Scope

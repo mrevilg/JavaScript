@@ -338,3 +338,5 @@ In global scope, variables are declared outside of blocks. These variables are c
     function callMyNightSky () {
     return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
     }
+
+    console.log(callMyNightSky());

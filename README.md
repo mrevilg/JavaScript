@@ -322,3 +322,11 @@ Becomes:
 The parentheses around num have been removed, since it has a single parameter.
 The curly braces { } have been removed since the function consists of a single-line block.
 The return keyword has been removed since the function consists of a single-line block.
+
+Block and Scope
+
+A block is the code found inside a set of curly braces {}. Blocks help us group one or more statements together and serve as an important structural marker for our code.
+
+Scope is the context in which our variables are declared. We think about scope in relation to blocks because variables can exist either outside of or within these blocks.
+
+In global scope, variables are declared outside of blocks. These variables are called global variables. Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks.

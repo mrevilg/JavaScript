@@ -340,3 +340,13 @@ In global scope, variables are declared outside of blocks. These variables are c
     }
 
     console.log(callMyNightSky());
+
+Block scope. When a variable is defined inside a block, it is only accessible to the code within the curly braces {}. We say that variable has block scope because it is only accessible to the lines of code within that block.
+
+    function logVisibleLightWaves () {
+    const  lightWaves = 'Moonlight';
+    console.log(lightWaves);
+    }
+
+    logVisibleLightWaves();
+    console.log(lightWaves); // this will throw an error

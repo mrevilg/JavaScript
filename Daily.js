@@ -325,3 +325,13 @@ function callMyNightSky () {
 }
 
 console.log(callMyNightSky());
+
+// Block Scope (block only scope)
+
+function logVisibleLightWaves () {
+  const  lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+
+logVisibleLightWaves();
+console.log(lightWaves); // this will throw an error

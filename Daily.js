@@ -335,3 +335,17 @@ function logVisibleLightWaves () {
 
 logVisibleLightWaves();
 console.log(lightWaves); // this will throw an error
+
+// Scope Pollution (too many global)
+
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const callMyNightSky = () => {
+  stars = 'Sirius'; // should include let stars to solve
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);

@@ -350,3 +350,17 @@ Block scope. When a variable is defined inside a block, it is only accessible to
 
     logVisibleLightWaves();
     console.log(lightWaves); // this will throw an error
+
+Scope pollution is when we have too many global variables that exist in the global namespace, or when we reuse variables across different scopes. Below, the variable 'stars' gets written over in in the callMyNightSky function.
+
+    const satellite = 'The Moon';
+    const galaxy = 'The Milky Way';
+    let stars = 'North Star';
+
+    const callMyNightSky = () => {
+    stars = 'Sirius'; // should include let stars to solve
+        return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+    };
+
+    console.log(callMyNightSky());
+    console.log(stars);

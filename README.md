@@ -384,3 +384,12 @@ It will save memory in your code because it will cease to exist after the block 
     };
 
     logVisibleLightWaves();
+
+Array - [...]
+
+Arrays are JavaScript’s way of making lists. Arrays can store any data types (including strings, numbers, and booleans). Like lists, arrays are ordered, meaning each item has a numbered position. One way we can create an array is to use an array literal. An array literal creates an array by wrapping items in square brackets []. Arrays can store any data type. Indces start at ZERO
+
+    three = 'third hobby'
+
+    const hobbies = ['1', 2, three];
+    console.log(hobbies);

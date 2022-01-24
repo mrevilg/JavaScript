@@ -364,3 +364,10 @@ const logVisibleLightWaves = () => {
 };
 
 logVisibleLightWaves();
+
+// Array
+
+three = 'third hobby'
+
+const hobbies = ['1', 2, three];
+console.log(hobbies);

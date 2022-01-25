@@ -365,9 +365,18 @@ const logVisibleLightWaves = () => {
 
 logVisibleLightWaves();
 
-// Array
+// Array and Element Access
 
 three = 'third hobby'
 
 const hobbies = ['1', 2, three];
 console.log(hobbies);
+
+
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+var listItem = famousSayings[0]; // Assigns zero element
+console.log(listItem);
+
+console.log(famousSayings[2]); // logs to screen element three
+console.log(famousSayings[3]); // error/undefined

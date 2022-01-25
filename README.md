@@ -385,7 +385,7 @@ It will save memory in your code because it will cease to exist after the block 
 
     logVisibleLightWaves();
 
-Array - [...]
+Array and Element Access- [0,1,2,3,etc...]
 
 Arrays are JavaScript’s way of making lists. Arrays can store any data types (including strings, numbers, and booleans). Like lists, arrays are ordered, meaning each item has a numbered position. One way we can create an array is to use an array literal. An array literal creates an array by wrapping items in square brackets []. Arrays can store any data type. Indces start at ZERO
 
@@ -393,3 +393,12 @@ Arrays are JavaScript’s way of making lists. Arrays can store any data types (
 
     const hobbies = ['1', 2, three];
     console.log(hobbies);
+
+
+    const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+    var listItem = famousSayings[0]; // Assigns zero element
+    console.log(listItem);
+
+    console.log(famousSayings[2]); // logs to screen element three
+    console.log(famousSayings[3]); // error/undefined

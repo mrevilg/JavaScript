@@ -402,3 +402,10 @@ Arrays are JavaScript’s way of making lists. Arrays can store any data types (
 
     console.log(famousSayings[2]); // logs to screen element three
     console.log(famousSayings[3]); // error/undefined
+
+Element Updates
+
+    let groceryList = ['bread', 'tomatoes', 'milk'];
+
+    groceryList[1] = 'avocados'; // 2nd Element aka 1st Indeces updated
+    console.log(groceryList);

@@ -409,3 +409,19 @@ Element Updates
 
     groceryList[1] = 'avocados'; // 2nd Element aka 1st Indeces updated
     console.log(groceryList);
+
+Arrays with let and const
+
+Variables declared with the const keyword cannot be reassigned. However, elements in an array declared with const remain mutable. Meaning that we can change the contents of a const array, but cannot reassign a new array or a different value.
+
+    let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+    const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+    condiments[0] = 'Mayo';
+    console.log(condiments);
+
+    condiments = ['Mayo'];
+
+    utensils[3] = 'Spoon';
+    console.log(utensils);

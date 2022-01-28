@@ -386,3 +386,17 @@ let groceryList = ['bread', 'tomatoes', 'milk'];
 
 groceryList[1] = 'avocados'; // 2nd Element aka 1st Indeces updated
 console.log(groceryList);
+
+// Arrays with let and Const
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments[0] = 'Mayo';
+console.log(condiments);
+
+condiments = ['Mayo'];
+
+utensils[3] = 'Spoon';
+console.log(utensils);

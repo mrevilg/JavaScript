@@ -406,3 +406,11 @@ console.log(utensils);
 const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
 
 console.log(objectives.length);
+
+// .push() allows us to add items to the end of an array.
+
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+
+chores.push('litter box', 'pet kitty');
+
+console.log(chores);

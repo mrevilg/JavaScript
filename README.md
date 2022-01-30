@@ -439,3 +439,7 @@ One of an array’s built-in properties is length and it returns the number of i
     chores.push('litter box', 'pet kitty');
 
     console.log(chores);
+
+    chores.pop();
+
+    console.log(chores); // Logs to screen array with last elem removed

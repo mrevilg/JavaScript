@@ -443,3 +443,5 @@ One of an array’s built-in properties is length and it returns the number of i
     chores.pop();
 
     console.log(chores); // Logs to screen array with last elem removed
+
+Many more arry handling methods here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

@@ -417,4 +417,24 @@ console.log(chores); // log to screen full array
 // .pop(), removes the last item of an array.
 chores.pop();
 
+// other
+
 console.log(chores); // Logs to screen array with last elem removed
+
+var groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift();
+
+console.log(groceryList);
+
+groceryList.unshift('popcorn');
+
+console.log(groceryList);
+
+console.log(groceryList.slice(1, 4));
+
+console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta');
+
+console.log(pastaIndex);

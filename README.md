@@ -445,3 +445,25 @@ One of an array’s built-in properties is length and it returns the number of i
     console.log(chores); // Logs to screen array with last elem removed
 
 Many more arry handling methods here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Changing an Array within a Function
+
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+    function changeArr(arr){
+    arr[3] = 'MUTATED';
+    }
+
+    changeArr(concept);
+
+    console.log(concept);
+
+    const removeElement = (newArr) => {
+    newArr.pop();
+    }
+
+    console.log(removeElement(concept));
+
+    removeElement(concept);
+
+    console.log(concept);

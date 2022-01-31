@@ -438,3 +438,25 @@ console.log(groceryList);
 const pastaIndex = groceryList.indexOf('pasta');
 
 console.log(pastaIndex);
+
+// Changing Array within a Function
+
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+
+changeArr(concept);
+
+console.log(concept);
+
+const removeElement = (newArr) => {
+  newArr.pop();
+}
+
+console.log(removeElement(concept));
+
+removeElement(concept);
+
+console.log(concept);

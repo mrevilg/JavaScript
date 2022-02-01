@@ -460,3 +460,9 @@ console.log(removeElement(concept));
 removeElement(concept);
 
 console.log(concept);
+
+// Array Inception
+
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+
+const target = numberClusters[2][1];

@@ -466,3 +466,9 @@ console.log(concept);
 const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
 const target = numberClusters[2][1];
+
+// for loop
+
+for (let counter = 5; counter <= 10; counter++){
+  console.log(counter);
+}

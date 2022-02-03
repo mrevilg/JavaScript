@@ -492,3 +492,7 @@ The initialization is let counter = 5, so the loop will start counting at 5.
 The stopping condition is counter <= 10, meaning the loop will run as long as the iterator variable, counter, is greater than or equal to 10.
 The iteration statement is counter++. This means after each loop, the value of counter will increase by 1. For the first iteration counter will equal 5, for the second iteration counter will equal 6, and so on.
 The code block is inside of the curly braces, console.log(counter), will execute until the condition evaluates to false. The condition will be false when counter is greater than or equal to 10 — the point that the condition becomes false is sometimes called the stop condition.
+
+    for (let counter = 3; counter >= 0; counter--){
+    console.log(counter); // loop in reverse
+    }

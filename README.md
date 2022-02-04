@@ -496,3 +496,11 @@ The code block is inside of the curly braces, console.log(counter), will execute
     for (let counter = 3; counter >= 0; counter--){
     console.log(counter); // loop in reverse
     }
+
+Using .length
+
+    const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+    for (let i = 0; i < vacationSpots.length; i++) {
+    console.log('I would love to visit ' + vacationSpots[i])
+    }

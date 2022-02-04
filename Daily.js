@@ -476,3 +476,9 @@ for (let counter = 5; counter <= 10; counter++){
 for (let counter = 3; counter >= 0; counter--){
   console.log(counter); // loop in reverse
 }
+
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+    for (let i = 0; i < vacationSpots.length; i++) {
+    console.log('I would love to visit ' + vacationSpots[i])
+    } // using .length

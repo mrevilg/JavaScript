@@ -482,3 +482,7 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
     for (let i = 0; i < vacationSpots.length; i++) {
     console.log('I would love to visit ' + vacationSpots[i])
     } // using .length
+
+// Nested Loops
+
+const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank']

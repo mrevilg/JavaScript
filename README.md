@@ -504,3 +504,9 @@ Using .length
     for (let i = 0; i < vacationSpots.length; i++) {
     console.log('I would love to visit ' + vacationSpots[i])
     }
+
+Nested Loops
+
+One use for a nested for loop is to compare the elements in two arrays. For each round of the outer for loop, the inner for loop will run completely.
+
+    const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank']

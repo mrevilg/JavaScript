@@ -509,4 +509,8 @@ Nested Loops
 
 One use for a nested for loop is to compare the elements in two arrays. For each round of the outer for loop, the inner for loop will run completely.
 
-    const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank']
+    const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank'];
+
+    var tinasFollowers = ['Fred', 'Smithers', 'Lemmie'];
+
+    var mutualFollowers = [];

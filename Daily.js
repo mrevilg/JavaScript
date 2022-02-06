@@ -485,4 +485,8 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 
 // Nested Loops
 
-const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank']
+const bobsFollowers = ['Fred', 'Smithers', 'John', 'Frank'];
+
+var tinasFollowers = ['Fred', 'Smithers', 'Lemmie'];
+
+var mutualFollowers = [];

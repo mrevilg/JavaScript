@@ -496,3 +496,9 @@ for (let i = 0; i < bobsFollowers.length; i++) {
     }
   }
 };
+
+// While Loops
+
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+let currentCard = '';

@@ -528,3 +528,7 @@ Think of eating like a while loop: when you start taking bites, you don’t know
     const cards = ['diamond', 'spade', 'heart', 'club'];
 
     let currentCard = '';
+    while (currentCard != 'spade') {
+        currentCard = cards[Math.floor(Math.random() * 4)];
+        console.log(currentCard);
+    };

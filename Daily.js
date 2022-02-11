@@ -506,3 +506,9 @@ while (currentCard != 'spade') {
   currentCard = cards[Math.floor(Math.random() * 4)];
   console.log(currentCard);
 };
+
+// Do..While
+
+let cupsOfSugarNeeded = 3;
+
+let cupsAdded = 0;

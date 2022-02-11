@@ -532,3 +532,23 @@ Think of eating like a while loop: when you start taking bites, you don’t know
         currentCard = cards[Math.floor(Math.random() * 4)];
         console.log(currentCard);
     };
+
+Do While Loop
+
+A do...while statement says to do a task once and then keep doing it until a specified condition is no longer met. 
+
+Note that the while and do...while loop are different! Unlike the while loop, do...while will run at least once whether or not the condition evaluates to true.
+
+    const firstMessage = 'I will print!';
+    const secondMessage = 'I will not print!'; 
+    
+    // A do while with a stopping condition that evaluates to false
+    do {
+    console.log(firstMessage)
+    } while (true === false);
+    
+    // A while loop with a stopping condition that evaluates to false
+    while (true === false){
+    console.log(secondMessage)
+    };
+

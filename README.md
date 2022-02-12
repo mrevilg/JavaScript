@@ -552,3 +552,11 @@ Note that the while and do...while loop are different! Unlike the while loop, do
     console.log(secondMessage)
     };
 
+
+    let cupsOfSugarNeeded = 3;
+    let cupsAdded = 0;
+
+    do {
+    cupsAdded++
+    console.log(cupsAdded + ' cup was added') 
+    } while (cupsAdded < cupsOfSugarNeeded);

@@ -560,3 +560,13 @@ Note that the while and do...while loop are different! Unlike the while loop, do
     cupsAdded++
     console.log(cupsAdded + ' cup was added') 
     } while (cupsAdded < cupsOfSugarNeeded);
+
+Break (Keyword)
+
+In our code, when we want to stop a loop from continuing to execute even though the original stopping condition we wrote for our loop hasn’t been met, we can use the keyword break.
+
+    const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+    for (let i = 0; i < rapperArray.length; i++){
+    console.log(rapperArray[i]);
+    }

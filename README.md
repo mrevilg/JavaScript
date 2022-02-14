@@ -568,5 +568,7 @@ In our code, when we want to stop a loop from continuing to execute even though 
     const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
 
     for (let i = 0; i < rapperArray.length; i++){
-    console.log(rapperArray[i]);
+        console.log(rapperArray[i]);
     }
+
+    console.log("And if you don't know, now you know.");

@@ -575,3 +575,19 @@ In our code, when we want to stop a loop from continuing to execute even though 
     }
 
     console.log("And if you don't know, now you know.");
+
+High Order Functions - Abstraction
+
+Higher-order functions are functions that accept other functions as arguments and/or return functions as output. This enables us to build abstractions on other abstractions.
+
+    const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
+    for(let i = 1; i <= 1000000; i++) {
+        if ( (2 + 2) != 4) {
+        console.log('Something has gone very wrong :( ');
+        }
+    }
+    }
+
+        const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+
+    is2p2();

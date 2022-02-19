@@ -619,3 +619,15 @@ With callbacks, we pass in the function itself by typing the function name witho
     // Write your code below
 
     const time2p2 = timeFuncRuntime(checkThatTwoPlusTwoEqualsFourAMillionTimes);
+
+    const checkConsistentOutput = (func, val) => {
+        let firstTry = func(val);
+        let secondTry = func(val);
+        if (firstTry === secondTry) {
+            return firstTry
+        } else {
+            return 'This function returned inconsistent results'
+        }
+    };
+
+    checkConsistentOutput(addTwo, 10);

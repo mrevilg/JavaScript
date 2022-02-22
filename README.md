@@ -662,3 +662,10 @@ Matisse is one of my favorite artists.
 Utamaro is one of my favorite artists.
 [ 1, 4, 9, 16, 25 ]
 [ 5, 3.14, 100 ]
+
+.forEach() Method
+
+    const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+    // Iterates over fruits below
+    fruits.forEach(fruit => console.log(`I want to eat a ${fruit}.`))

@@ -601,3 +601,10 @@ const onlyNumbers = things.filter(thing => {
 });
 
 console.log(onlyNumbers);
+
+// .forEaahc()
+
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+// Iterates over fruits below
+fruits.forEach(fruit => console.log(`I want to eat a ${fruit}.`))

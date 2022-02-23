@@ -669,3 +669,17 @@ Utamaro is one of my favorite artists.
 
     // Iterates over fruits below
     fruits.forEach(fruit => console.log(`I want to eat a ${fruit}.`))
+
+.map() Method
+
+When .map() is called on an array, it takes an argument of a callback function and returns a new array!
+
+
+    const numbers = [1, 2, 3, 4, 5]; 
+    
+    const bigNumbers = numbers.map(number => {
+    return number * 10;
+    });
+
+    console.log(numbers); // Output: [1, 2, 3, 4, 5]
+    console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]

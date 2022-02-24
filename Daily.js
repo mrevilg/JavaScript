@@ -619,3 +619,7 @@ const bigNumbers = numbers.map(number => {
 
 console.log(numbers); // Output: [1, 2, 3, 4, 5]
 console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
+
+const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+const secretMessage = animals.map(animal => animal[0]);
+console.log(secretMessage.join('')); // Prints HelloWorld to console

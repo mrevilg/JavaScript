@@ -702,3 +702,13 @@ When .map() is called on an array, it takes an argument of a callback function a
     const longFavoriteWords = favoriteWords.filter(word => {
     return word.length > 7;
     })
+
+.findIndex() Method
+
+.findIndex() on an array will return the index of the first element that evaluates to true in the callback function.
+
+    const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+    const foundAnimal = animals.findIndex(animal => {
+    return animal === 'elephant';
+    });

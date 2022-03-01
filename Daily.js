@@ -638,3 +638,9 @@ const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'
 const longFavoriteWords = favoriteWords.filter(word => {
   return word.length > 7;
 })
+
+const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+const foundAnimal = animals.findIndex(animal => {
+  return animal === 'elephant';
+});

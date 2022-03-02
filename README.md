@@ -712,3 +712,10 @@ When .map() is called on an array, it takes an argument of a callback function a
     const foundAnimal = animals.findIndex(animal => {
     return animal === 'elephant';
     });
+
+    const startsWithS = animals.findIndex(animal => {
+        return animal[0] === 's' ? true : false;
+    });
+
+    console.log(foundAnimal); // Logs indicies of 1st True
+    console.log(startsWithS); // Logs indicies of 1st True

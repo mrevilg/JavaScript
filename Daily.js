@@ -652,3 +652,9 @@ const startsWithS = animals.findIndex(animal => {
 
 console.log(foundAnimal); // Logs indicies of 1st True
 console.log(startsWithS); // Logs indicies of 1st True
+
+// .reduce() Method
+
+const newNumbers = [1, 3, 5, 7];
+
+const newSum = newNumbers.reduce();

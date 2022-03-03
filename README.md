@@ -719,3 +719,29 @@ When .map() is called on an array, it takes an argument of a callback function a
 
     console.log(foundAnimal); // Logs indicies of 1st True
     console.log(startsWithS); // Logs indicies of 1st True
+
+The .reduce() method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
+
+const numbers = [1, 2, 4, 10];
+ 
+    const summedNums = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+    })
+    
+    console.log(summedNums) // Output: 17
+
+The .reduce() method can also take an optional second parameter to set an initial value for accumulator (remember, the first argument is the callback function!)
+
+    const numbers = [1, 2, 4, 10];
+    
+    const summedNums = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+    }, 100)  // <- Second argument for .reduce()
+    
+    console.log(summedNums); // Output: 117
+
+Another Example:
+
+    const newNumbers = [1, 3, 5, 7];
+
+    const newSum = newNumbers.reduce();

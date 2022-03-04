@@ -744,4 +744,6 @@ Another Example:
 
     const newNumbers = [1, 3, 5, 7];
 
-    const newSum = newNumbers.reduce();
+    const newSum = newNumbers.reduce((accumulator, currentValue) => {
+    return
+    });

@@ -657,4 +657,6 @@ console.log(startsWithS); // Logs indicies of 1st True
 
 const newNumbers = [1, 3, 5, 7];
 
-const newSum = newNumbers.reduce();
+const newSum = newNumbers.reduce((accumulator, currentValue) => {
+  return
+});

@@ -658,8 +658,9 @@ console.log(startsWithS); // Logs indicies of 1st True
 const newNumbers = [1, 3, 5, 7];
 
 const newSum = newNumbers.reduce((accumulator, currentValue) => {
-  return
   console.log('The value of accumulator: ', accumulator);
   console.log('The value of currentValue: ', currentValue);
   return accumulator + currentValue;
-});
+}, 10); // Second argument to reduce
+
+console.log(newSum);

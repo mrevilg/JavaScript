@@ -664,3 +664,11 @@ const newSum = newNumbers.reduce((accumulator, currentValue) => {
 }, 10); // Second argument to reduce
 
 console.log(newSum);
+
+const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+console.log(words.some(word => {
+  return word.length < 6;
+}));
+
+const interestingWords = words.filter((word) => {return word.length > 5});

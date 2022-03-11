@@ -751,3 +751,15 @@ Another Example:
     }, 10); // Second argument to reduce
 
     console.log(newSum);
+
+More array iterations:
+
+    console.log(newSum);
+
+    const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+    console.log(words.some(word => {
+    return word.length < 6;
+    }));
+
+    const interestingWords = words.filter((word) => {return word.length > 5});

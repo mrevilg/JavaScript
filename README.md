@@ -788,3 +788,26 @@ Even More iteration Methods
 
     // Choose a method that will return a boolean value
     nums.every(num => num < 0);
+
+Iterator Summary
+
+.forEach() is used to execute the same code on every element in an array but does not change the array and returns undefined.
+.map() executes the same code on every element in an array and returns a new array with the updated elements.
+.filter() checks every element in an array to see if it meets certain criteria and returns a new array with the elements that return truthy for the criteria.
+.findIndex() returns the index of the first element of an array that satisfies a condition in the callback function. It returns -1 if none of the elements in the array satisfies the condition.
+.reduce() iterates through an array and takes the values of the elements and returns a single value.
+All iterator methods take a callback function, which can be a pre-defined function, a function expression, or an arrow function.
+You can visit the Mozilla Developer Network to learn more about iterator methods (and all other parts of JavaScript!).
+
+Object Literals
+
+Objects can be assigned to variables just like any JavaScript type. We use curly braces, {}, to designate an object literal: We fill an object with unordered data. This data is organized into key-value pairs. A key is like a variable name that points to a location in memory that holds a value.
+
+A key’s value can be of any data type in the language including functions or other objects.
+
+We make a key-value pair by writing the key’s name, or identifier, followed by a colon and then the value. We separate each key-value pair in an object literal with a comma (,). Keys are strings, but when we have a key that does not have any special characters in it, JavaScript allows us to omit the quotation marks:
+
+    let fasterShip = {
+    'Fuel Type' : 'Turbo Fuel',
+    color: 'silver'
+    }

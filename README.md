@@ -811,3 +811,16 @@ We make a key-value pair by writing the key’s name, or identifier, followed by
     'Fuel Type' : 'Turbo Fuel',
     color: 'silver'
     }
+
+Dot Notation (.) Accessing Properties
+
+let spaceship = {
+  homePlanet: 'Earth',
+  color: 'silver',
+  'Fuel Type': 'Turbo Fuel',
+  numCrew: 5,
+  flightPath: ['Venus', 'Mars', 'Saturn']
+};
+
+// Write your code below
+let crewCount = spaceship.numCrew;

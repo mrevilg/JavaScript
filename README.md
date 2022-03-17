@@ -824,3 +824,4 @@ let spaceship = {
 
 // Write your code below
 let crewCount = spaceship.numCrew;
+let planetArray = spaceship.flightPath;

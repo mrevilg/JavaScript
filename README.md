@@ -841,3 +841,4 @@ We must use bracket notation when accessing keys that have numbers, spaces, or s
 
     // Write your code below
     let isActive = spaceship['Active Mission'];
+    console.log(spaceship[propName]);

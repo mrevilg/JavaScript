@@ -736,3 +736,22 @@ let propName =  'Active Mission';
 // Write your code below
 let isActive = spaceship['Active Mission'];
 console.log(spaceship[propName]);
+
+// Property Assignment 
+
+// via . or []
+spaceship ['Fuel Type'] = 'vegetable oil';
+spaceship.color = 'gold';
+
+// various additions and deletions
+
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth',
+  color: 'silver',
+  'Secret Mission' : 'Discover life outside of Earth.'
+};
+
+// Code
+spaceship.color = 'glorious gold';
+spaceship.numEngines = 5;

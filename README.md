@@ -842,3 +842,28 @@ We must use bracket notation when accessing keys that have numbers, spaces, or s
     // Write your code below
     let isActive = spaceship['Active Mission'];
     console.log(spaceship[propName]);
+
+Property Assignment
+
+We can use either dot notation, ., or bracket notation, [], and the assignment operator, = to add new key-value pairs to an object or change an existing property.
+
+    // via . or []
+    spaceship ['Fuel Type'] = 'vegetable oil';
+    spaceship.color = 'gold';
+
+It’s important to know that although we can’t reassign an object declared with const, we can still mutate it, meaning we can add new properties and change the properties that are there.
+
+    const spaceship = {type: 'shuttle'};
+    spaceship = {type: 'alien'}; // TypeError: Assignment to constant variable.
+    spaceship.type = 'alien'; // Changes the value of the type property
+    spaceship.speed = 'Mach 5'; // Creates a new key of 'speed' with a value of 'Mach 5'
+
+You can delete a property from an object with the delete operator.
+
+    const spaceship = {
+    'Fuel Type': 'Turbo Fuel',
+    homePlanet: 'Earth',
+    mission: 'Explore the universe' 
+    };
+    
+    delete spaceship.mission;  // Removes the mission property

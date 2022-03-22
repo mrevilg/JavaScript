@@ -755,3 +755,4 @@ let spaceship = {
 // Code
 spaceship.color = 'glorious gold';
 spaceship.numEngines = 5;
+delete spaceship ['Secret Mission'];

@@ -866,4 +866,6 @@ You can delete a property from an object with the delete operator.
     mission: 'Explore the universe' 
     };
     
-    delete spaceship.mission;  // Removes the mission property
+    spaceship.color = 'glorious gold';
+    spaceship.numEngines = 5;
+    delete spaceship ['Secret Mission'];
